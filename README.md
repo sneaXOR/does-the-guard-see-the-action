@@ -64,11 +64,3 @@ Agent security increasingly relies on controlling tool calls at runtime. A contr
 The exact integration issue does not have a standard name. I call the property being tested "action fidelity at the policy boundary."
 
 See [RESEARCH.md](RESEARCH.md) for the supporting work and the limits of the claim.
-
-## Limits
-
-- This is one public compatibility reproduction, not a universal scanner.
-- It does not show that Fabraix or other agent systems have the same issue.
-- It does not estimate how common this failure mode is.
-- The repair is a discriminating control, not a proposed upstream patch.
-- No production action, account, network target or real money is involved.
