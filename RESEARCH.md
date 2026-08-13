@@ -25,9 +25,3 @@ AgentDojo also evaluates security and utility through realistic tool execution r
 TOCTOU work on LLM agents is adjacent evidence that the continuity between a security check and later execution deserves explicit testing. It is not the same failure as the argument loss reproduced here:
 
 - [Mind the Gap: Time-of-Check to Time-of-Use Vulnerabilities in LLM-Enabled Agents](https://arxiv.org/abs/2508.17155)
-
-## Exact claim
-
-This repository proves one thing: under the pinned public packages, the real runner carries `amount=10000`, the published governance hook evaluates an empty argument object, and the tool executes with `amount=10000`. A narrow context-aware control blocks the dangerous case and preserves a benign case.
-
-It does not establish prevalence, exploitability in a deployed service, scientific novelty or a weakness in any private product.
